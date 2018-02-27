@@ -8,13 +8,14 @@ function callMe() {
   return lyric;
 }
 
-
 function crazy() {
-  var thisIsCrazy = function() {
+  var thisIsCrazy = function () {
     console.log("hey!!!")
-  }
+ }
+  thisIsCrazy();
 }
-    thisIsCrazy();
+
+
 
 
 function sayMyName() {
